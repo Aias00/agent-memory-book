@@ -1,0 +1,42 @@
+{
+  "source_read_date": "2026-10-19",
+  "edition_date": "2026-10-20",
+  "sources": {
+    "article_CN.md": {
+      "sha256": "cabe9c7a0d592bcdb25d094fdb4aacc21647e30d4aaf9007e5d36d23a9be82e8",
+      "bytes": 12134
+    },
+    "design_CN.md": {
+      "sha256": "de46d4476c735110ea0b0d13e3ed7ea662b933f90625dab2eec458f260968b54",
+      "bytes": 28693
+    },
+    "sources_CN.md": {
+      "sha256": "b7abd813cc5109744a51551cafb265164bde85a0797f8281c682ef9657598adb",
+      "bytes": 12151
+    }
+  },
+  "notes": "sources contains historical editorial input hashes, not repository file paths. manuscript contains the current, reproducible source files for this edition.",
+  "manuscript": {
+    "manuscript/00-preface.md": {
+      "sha256": "9e8b489c335483b53f3a80e0551f50a822edca6656f4f7197ed62bc3b2c4c34b"
+    },
+    "manuscript/01-foundations.md": {
+      "sha256": "726544020ced5ccca92fa2d25ef3245f71fe652ce3e33b46527816027d58f2de"
+    },
+    "manuscript/02-design-overview.md": {
+      "sha256": "8781f9efd3d151329f49da078747a4a549c9f365fe2b02864d307b705e2d5155"
+    },
+    "manuscript/03-records-and-writing.md": {
+      "sha256": "ae4a2b8e01a78611a1626c51d8aea31f15722b0dc0ed893f9faafdc67dbe08e9"
+    },
+    "manuscript/04-retrieval-and-lifecycle.md": {
+      "sha256": "494001aef7452f2d9c350c1039e3f274c356249eb24c36fe728ee2e9bc102080"
+    },
+    "manuscript/05-evaluation-and-rollout.md": {
+      "sha256": "f122aff01cce5514293f54adee7e624e3924385efb8062df36e89c42ab415f6f"
+    },
+    "manuscript/06-sources.md": {
+      "sha256": "8908ac524968510a513c438375c255d6428c24de4524632e3b938ab168cd8dc1"
+    }
+  }
+}

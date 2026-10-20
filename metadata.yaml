@@ -1,0 +1,18 @@
+title: "Agent 记忆"
+subtitle: "从概念到可落地的工程设计"
+author:
+  - "AI 辅助整理"
+lang: zh-CN
+date: "2026-10-20"
+publisher: "agent-memory-book"
+identifier: "urn:uuid:7c87ca57-a90d-49ce-9877-912e7436effe"
+rights: "原创整理与设计；外部参考资料版权归各自作者所有。"
+description: >-
+  一本面向 Agent 开发者的长期记忆设计读本，涵盖记忆分类、权威内容、
+  写入与检索、多 Agent 一致性、遗忘机制、技术选型与评估。
+toc-title: "目录"
+subject:
+  - "人工智能"
+  - "Agent 长期记忆"
+  - "知识管理"
+  - "软件架构"

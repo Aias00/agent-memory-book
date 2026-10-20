@@ -1,0 +1,89 @@
+{
+  "method": "Browser rendering of actual XHTML and CSS extracted from the final EPUB, not a simulated reader pagination engine.",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "checks": [
+    {
+      "chapter": 1,
+      "title": "序言　怎样阅读这本书",
+      "viewport": 390,
+      "width": 390,
+      "overflow": [],
+      "images": [],
+      "tables": 0,
+      "code": 0
+    },
+    {
+      "chapter": 2,
+      "title": "第一章　从聊天记录到可用知识",
+      "viewport": 390,
+      "width": 390,
+      "overflow": [],
+      "images": [
+        {
+          "loaded": true,
+          "alt": true
+        }
+      ],
+      "tables": 1,
+      "code": 0
+    },
+    {
+      "chapter": 3,
+      "title": "第二章　目标、边界与总体架构",
+      "viewport": 390,
+      "width": 390,
+      "overflow": [],
+      "images": [
+        {
+          "loaded": true,
+          "alt": true
+        }
+      ],
+      "tables": 3,
+      "code": 0
+    },
+    {
+      "chapter": 4,
+      "title": "第三章　数据模型与写入协议",
+      "viewport": 390,
+      "width": 390,
+      "overflow": [],
+      "images": [],
+      "tables": 2,
+      "code": 2
+    },
+    {
+      "chapter": 5,
+      "title": "第四章　检索、一致性与遗忘",
+      "viewport": 390,
+      "width": 390,
+      "overflow": [],
+      "images": [],
+      "tables": 2,
+      "code": 1
+    },
+    {
+      "chapter": 6,
+      "title": "第五章　选型、评估与实施",
+      "viewport": 390,
+      "width": 390,
+      "overflow": [],
+      "images": [],
+      "tables": 3,
+      "code": 0
+    },
+    {
+      "chapter": 7,
+      "title": "附录　资料阅读与证据对照",
+      "viewport": 390,
+      "width": 390,
+      "overflow": [],
+      "images": [],
+      "tables": 2,
+      "code": 0
+    }
+  ]
+}
