@@ -47,7 +47,8 @@ def head(title, filename, description):
 <link rel="canonical" href="{BASE}{filename}">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="site.css">
-<title>{escape(title)} · Agent 记忆</title></head>'''
+<title>{escape(title)} · Agent 记忆</title><script src="reader.js" defer></script>
+</head>'''
 
 
 def sidebar(current):
@@ -82,6 +83,7 @@ def build():
     (SITE / ".nojekyll").write_text("")
     shutil.copytree(ROOT / "assets", SITE / "assets", dirs_exist_ok=True)
     shutil.copyfile(ROOT / "styles/site.css", SITE / "site.css")
+    shutil.copyfile(ROOT / "styles/reader.js", SITE / "reader.js")
     shutil.copyfile(ROOT / "dist" / EPUB, SITE / "agent-memory.epub")
     (SITE / "assets/favicon.svg").write_text('''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#102c3b"/><circle cx="32" cy="32" r="17" fill="none" stroke="#d3e97d" stroke-width="3"/><circle cx="32" cy="32" r="5" fill="#d3e97d"/></svg>''')
 
